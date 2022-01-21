@@ -80,12 +80,12 @@ export default {
     //     title: 'host',
     //     type: 'host',
     //   },
-    //   {
-    //     name: 'reviews',
-    //     title: 'Reviews',
-    //     type: 'array',
-    //     of: [{ type: 'review' }],
-    //   },
+      {
+        name: 'reviews',
+        title: 'Reviews',
+        type: 'array',
+        of: [{ type: 'review' }],
+      },
     ],
     // preview: {
     //   select: {

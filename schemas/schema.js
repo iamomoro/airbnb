@@ -7,8 +7,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 //we import object and document schema
 import property from './property'
 import propertyImage from './propertyImage'
-// import review from './Review'
-// import traveller from './Traveller'
+import review from './Review'
+import traveller from './Traveller'
 // import host from './Host'
 // import person from './Person'
 
@@ -22,8 +22,8 @@ export default createSchema({
     /* Your types here! */
     property,
     propertyImage,
-    // review,
-    // traveller,
+    review,
+    traveller,
     // host,
     // person,
   ]),
