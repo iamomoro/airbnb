@@ -75,11 +75,11 @@ export default {
         title: 'Description',
         type: 'string',
       },
-    //   {
-    //     name: 'host',
-    //     title: 'host',
-    //     type: 'host',
-    //   },
+      {
+        name: 'host',
+        title: 'host',
+        type: 'host',
+      },
       {
         name: 'reviews',
         title: 'Reviews',
@@ -87,10 +87,10 @@ export default {
         of: [{ type: 'review' }],
       },
     ],
-    // preview: {
-    //   select: {
-    //     title: 'title',
-    //     pricePerNight: 'pricePerNight',
-    //   },
-    // },
+    preview: {
+      select: {
+        title: 'title',
+        pricePerNight: 'pricePerNight',
+      },
+    },
   }
